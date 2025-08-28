@@ -1,6 +1,6 @@
 {
   "name": "bawo-ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bawo UI kit: theme switcher, gradients, Tailwind components, pagination, copy button, loaders.",
   "license": "MIT",
   "type": "module",
@@ -12,7 +12,6 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
-
     "./button": {
       "import": "./dist/components/Button.js",
       "require": "./dist/components/Button.cjs",
@@ -48,7 +47,6 @@
       "require": "./dist/components/Loaders.cjs",
       "types": "./dist/components/Loaders.d.ts"
     },
-
     "./theme": {
       "import": "./dist/theme/ThemeProvider.js",
       "require": "./dist/theme/ThemeProvider.cjs",
@@ -59,13 +57,11 @@
       "require": "./dist/theme/ThemeSwitcher.cjs",
       "types": "./dist/theme/ThemeSwitcher.d.ts"
     },
-
     "./gradients": {
       "import": "./dist/gradients/color.js",
       "require": "./dist/gradients/color.cjs",
       "types": "./dist/gradients/color.d.ts"
     },
-
     "./styles.css": "./src/styles.css"
   },
   "sideEffects": [
