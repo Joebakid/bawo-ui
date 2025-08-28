@@ -4,8 +4,6 @@
 React UI kit with Tailwind-friendly defaults. Includes Theme Provider/Switcher, gradients & color utils, buttons, cards, modal, badge, pagination, copy button, and loaders.
 
  
-```
-
 
 ## Install
 
