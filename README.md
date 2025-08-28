@@ -8,9 +8,12 @@ React UI kit with Tailwind-friendly defaults. Includes Theme Provider/Switcher, 
 
 
 ## Install
+
+
+## Install
 ```bash
 npm i @bawo/ui
-```
+
 
 
 ## Setup

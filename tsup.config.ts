@@ -3,10 +3,7 @@ import { defineConfig } from 'tsup';
 
 export default defineConfig({
   entry: {
-    // root
     index: 'src/index.ts',
-
-    // components
     'components/Button': 'src/components/Button.tsx',
     'components/Card': 'src/components/Card.tsx',
     'components/Modal': 'src/components/Modal.tsx',
@@ -14,20 +11,17 @@ export default defineConfig({
     'components/Pagination': 'src/components/Pagination.tsx',
     'components/CopyButton': 'src/components/CopyButton.tsx',
     'components/Loaders': 'src/components/Loaders.tsx',
-
-    // theme
+    'theme/index': 'src/theme/index.ts',          // <- important
     'theme/ThemeProvider': 'src/theme/ThemeProvider.tsx',
     'theme/ThemeSwitcher': 'src/theme/ThemeSwitcher.tsx',
-
-    // gradients
-    'gradients/color': 'src/gradients/color.ts',
+    'gradients/color': 'src/gradients/color.ts'
   },
   format: ['esm', 'cjs'],
   dts: true,
   sourcemap: true,
   clean: true,
   treeshake: true,
-  splitting: false,     // keep 1:1 files for easy exports mapping
+  splitting: false,
   outDir: 'dist',
-  target: 'es2020',
+  target: 'es2020'
 });

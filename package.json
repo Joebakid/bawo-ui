@@ -14,53 +14,43 @@
     },
     "./button": {
       "import": "./dist/components/Button.js",
-      "require": "./dist/components/Button.cjs",
-      "types": "./dist/components/Button.d.ts"
+      "require": "./dist/components/Button.cjs"
     },
     "./card": {
       "import": "./dist/components/Card.js",
-      "require": "./dist/components/Card.cjs",
-      "types": "./dist/components/Card.d.ts"
+      "require": "./dist/components/Card.cjs"
     },
     "./modal": {
       "import": "./dist/components/Modal.js",
-      "require": "./dist/components/Modal.cjs",
-      "types": "./dist/components/Modal.d.ts"
+      "require": "./dist/components/Modal.cjs"
     },
     "./badge": {
       "import": "./dist/components/Badge.js",
-      "require": "./dist/components/Badge.cjs",
-      "types": "./dist/components/Badge.d.ts"
+      "require": "./dist/components/Badge.cjs"
     },
     "./pagination": {
       "import": "./dist/components/Pagination.js",
-      "require": "./dist/components/Pagination.cjs",
-      "types": "./dist/components/Pagination.d.ts"
+      "require": "./dist/components/Pagination.cjs"
     },
     "./copy-button": {
       "import": "./dist/components/CopyButton.js",
-      "require": "./dist/components/CopyButton.cjs",
-      "types": "./dist/components/CopyButton.d.ts"
+      "require": "./dist/components/CopyButton.cjs"
     },
     "./loaders": {
       "import": "./dist/components/Loaders.js",
-      "require": "./dist/components/Loaders.cjs",
-      "types": "./dist/components/Loaders.d.ts"
+      "require": "./dist/components/Loaders.cjs"
     },
     "./theme": {
-      "import": "./dist/theme/ThemeProvider.js",
-      "require": "./dist/theme/ThemeProvider.cjs",
-      "types": "./dist/theme/ThemeProvider.d.ts"
+      "import": "./dist/theme/index.js",
+      "require": "./dist/theme/index.cjs"
     },
     "./theme-switcher": {
-      "import": "./dist/theme/ThemeSwitcher.js",
-      "require": "./dist/theme/ThemeSwitcher.cjs",
-      "types": "./dist/theme/ThemeSwitcher.d.ts"
+      "import": "./dist/theme/index.js",
+      "require": "./dist/theme/index.cjs"
     },
     "./gradients": {
       "import": "./dist/gradients/color.js",
-      "require": "./dist/gradients/color.cjs",
-      "types": "./dist/gradients/color.d.ts"
+      "require": "./dist/gradients/color.cjs"
     },
     "./styles.css": "./src/styles.css"
   },
