@@ -1,6 +1,6 @@
 {
   "name": "bawo-ui",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Bawo UI kit: theme switcher, gradients, Tailwind components, pagination, copy button, loaders.",
   "license": "MIT",
   "type": "module",
